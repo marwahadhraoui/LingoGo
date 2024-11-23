@@ -24,8 +24,8 @@ public class MasterLanguageFX extends Application {
     @Override
     public void start(Stage primaryStage) throws IOException {
        
-        Parent root = FXMLLoader.load(getClass().getResource("../Controllers/HomeInterfaceController.fxml"));
-        Scene scene = new Scene(root, 300, 250);
+        Parent root = FXMLLoader.load(getClass().getResource("../Views/welcome page.fxml"));
+        Scene scene = new Scene(root, 600, 600);
         
         primaryStage.setTitle("Hello World!");
         primaryStage.setScene(scene);
