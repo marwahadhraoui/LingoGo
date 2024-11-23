@@ -18,7 +18,7 @@ import javafx.scene.media.MediaPlayer;
  *
  * @author marwa
  */
-public class LessonScreenController implements Initializable {
+public class LessonScreenTravel1Controller implements Initializable {
 
     /**
      * Initializes the controller class.
