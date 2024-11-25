@@ -3,9 +3,45 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/ASUS/Documents/NetBeansProjects/MasterLanguageFX/src/Views/HomeInterface.fxml</file>
-            <file>file:/C:/Users/ASUS/Documents/NetBeansProjects/MasterLanguageFX/src/masterlanguagefx/MasterLanguageFX.java</file>
-            <file>file:/C:/Users/ASUS/Documents/NetBeansProjects/MasterLanguageFX/src/Controllers/HomeInterfaceController.java</file>
+            <file>file:/C:/Users/ASUS/Documents/NetBeansProjects/LingoGo/src/Views/choose%20topic.fxml</file>
+            <file>file:/C:/Users/ASUS/Documents/NetBeansProjects/LingoGo/src/Models/Levels/ScoreManager.java</file>
+            <file>file:/C:/Users/ASUS/Documents/NetBeansProjects/LingoGo/src/Controllers/ScoreAfterLevelController.java</file>
+            <file>file:/C:/Users/ASUS/Documents/NetBeansProjects/LingoGo/src/Models/Levels/Level.java</file>
+            <file>file:/C:/Users/ASUS/Documents/NetBeansProjects/LingoGo/src/Models/Lesson/Lesson.java</file>
+            <file>file:/C:/Users/ASUS/Documents/NetBeansProjects/LingoGo/src/masterlanguagefx/Langue.java</file>
+            <file>file:/C:/Users/ASUS/Documents/NetBeansProjects/LingoGo/src/Controllers/LessonScreenTravel4Controller.java</file>
+            <file>file:/C:/Users/ASUS/Documents/NetBeansProjects/LingoGo/src/Controllers/ExerciceScreen3Controller.java</file>
+            <file>file:/C:/Users/ASUS/Documents/NetBeansProjects/LingoGo/src/Controllers/ScoreAfterLessonController.java</file>
+            <file>file:/C:/Users/ASUS/Documents/NetBeansProjects/LingoGo/src/Views/ExerciceScreen2.fxml</file>
+            <file>file:/C:/Users/ASUS/Documents/NetBeansProjects/LingoGo/src/Views/LessonScreenTravel2.fxml</file>
+            <file>file:/C:/Users/ASUS/Documents/NetBeansProjects/LingoGo/src/Controllers/LessonScreenTravel1Controller.java</file>
+            <file>file:/C:/Users/ASUS/Documents/NetBeansProjects/LingoGo/src/masterlanguagefx/ConnexionBD.java</file>
+            <file>file:/C:/Users/ASUS/Documents/NetBeansProjects/LingoGo/src/Views/ScoreAfterLevel.fxml</file>
+            <file>file:/C:/Users/ASUS/Documents/NetBeansProjects/LingoGo/src/masterlanguagefx/MasterLanguageFX.java</file>
+            <file>file:/C:/Users/ASUS/Documents/NetBeansProjects/LingoGo/src/Views/LessonScreen2Travel1.fxml</file>
+            <file>file:/C:/Users/ASUS/Documents/NetBeansProjects/LingoGo/src/Controllers/LanguageController.java</file>
+            <file>file:/C:/Users/ASUS/Documents/NetBeansProjects/LingoGo/src/Controllers/ExerciceScreen2Controller.java</file>
+            <file>file:/C:/Users/ASUS/Documents/NetBeansProjects/LingoGo/src/Controllers/ThemeController.java</file>
+            <file>file:/C:/Users/ASUS/Documents/NetBeansProjects/LingoGo/src/Controllers/LessonScreenTravel2Controller.java</file>
+            <file>file:/C:/Users/ASUS/Documents/NetBeansProjects/LingoGo/src/Views/ExerciceScreen3.fxml</file>
+            <file>file:/C:/Users/ASUS/Documents/NetBeansProjects/LingoGo/src/Views/LessonScreenFood.fxml</file>
+            <file>file:/C:/Users/ASUS/Documents/NetBeansProjects/LingoGo/src/Controllers/WelcomeContoller.java</file>
+            <file>file:/C:/Users/ASUS/Documents/NetBeansProjects/LingoGo/src/Views/LessonScreenTravel4.fxml</file>
+            <file>file:/C:/Users/ASUS/Documents/NetBeansProjects/LingoGo/src/Controllers/LessonScreen2Travel1Controller.java</file>
+            <file>file:/C:/Users/ASUS/Documents/NetBeansProjects/LingoGo/src/Views/ScoreAfterLesson.fxml</file>
+            <file>file:/C:/Users/ASUS/Documents/NetBeansProjects/LingoGo/src/Views/ProgressLevel.fxml</file>
+            <file>file:/C:/Users/ASUS/Documents/NetBeansProjects/LingoGo/src/Controllers/ChooseLessonController.java</file>
+            <file>file:/C:/Users/ASUS/Documents/NetBeansProjects/LingoGo/src/Controllers/ExerciceScreen1Controller.java</file>
+            <file>file:/C:/Users/ASUS/Documents/NetBeansProjects/LingoGo/src/Views/select%20language.fxml</file>
+            <file>file:/C:/Users/ASUS/Documents/NetBeansProjects/LingoGo/src/Views/choose%20lesson.fxml</file>
+            <file>file:/C:/Users/ASUS/Documents/NetBeansProjects/LingoGo/src/Models/Lesson/VocabularyLesson.java</file>
+            <file>file:/C:/Users/ASUS/Documents/NetBeansProjects/LingoGo/src/Controllers/ExerciceScreen4Controller.java</file>
+            <file>file:/C:/Users/ASUS/Documents/NetBeansProjects/LingoGo/src/Controllers/ProgressLevelController.java</file>
+            <file>file:/C:/Users/ASUS/Documents/NetBeansProjects/LingoGo/src/Views/ExerciceScreen4.fxml</file>
+            <file>file:/C:/Users/ASUS/Documents/NetBeansProjects/LingoGo/src/Views/ExerciceScreen1.fxml</file>
+            <file>file:/C:/Users/ASUS/Documents/NetBeansProjects/LingoGo/src/Controllers/LessonScreenTravel3Controller.java</file>
+            <file>file:/C:/Users/ASUS/Documents/NetBeansProjects/LingoGo/src/Views/lessonscreenfood.css</file>
+            <file>file:/C:/Users/ASUS/Documents/NetBeansProjects/LingoGo/src/Views/welcome%20page.fxml</file>
         </group>
     </open-files>
 </project-private>

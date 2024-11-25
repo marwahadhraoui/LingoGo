@@ -23,7 +23,15 @@ public class LessonScreenTravel1Controller implements Initializable {
     /**
      * Initializes the controller class.
      */
+     private String id;
 
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         // TODO

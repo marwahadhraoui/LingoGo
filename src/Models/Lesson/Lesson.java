@@ -8,7 +8,7 @@ import Exercices.Exercice;
 import Exercices.ExerciceManager;
 import Exercices.TranslationExercise;
 import Progress.LessonProgress;
-import com.mycompany.language.MyException;
+import masterlanguagefx.MyException;
 import java.util.Scanner;
 
 /**
