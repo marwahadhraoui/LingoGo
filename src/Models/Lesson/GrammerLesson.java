@@ -4,7 +4,7 @@
  */
 package Lesson;
 
-import com.mycompany.language.MyException;
+import masterlanguagefx.MyException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Optional;

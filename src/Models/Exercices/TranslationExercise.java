@@ -4,7 +4,7 @@
  */
 package Exercices;
 
-import com.mycompany.language.Langue;
+import masterlanguagefx.Langue;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;

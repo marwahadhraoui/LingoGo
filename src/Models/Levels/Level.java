@@ -7,7 +7,7 @@ package Levels;
 import Lesson.GrammerLesson;
 import Lesson.Lesson;
 import Lesson.VocabularyLesson;
-import com.mycompany.language.MyException;
+import masterlanguagefx.MyException;
 import java.util.HashMap;
 import java.util.Scanner;
 import java.util.stream.Stream;
