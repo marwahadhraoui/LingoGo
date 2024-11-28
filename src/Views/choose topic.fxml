@@ -9,7 +9,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.ThemeController">
    <children>
       <ImageView fitHeight="612.0" fitWidth="616.0" pickOnBounds="true" preserveRatio="true">
          <image>
@@ -54,7 +54,7 @@
             <Insets right="300.0" top="300.0" />
          </StackPane.margin>
       </Circle>
-      <ImageView fitHeight="150.0" fitWidth="156.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="150.0" fitWidth="156.0" onMouseClicked="#selectTheme" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../images/tavel.png" />
          </image>
@@ -94,7 +94,7 @@
             <Insets left="300.0" top="300.0" />
          </StackPane.margin>
       </ImageView>
-      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="TRAVEL">
+      <Text fx:id="text1" strokeType="OUTSIDE" strokeWidth="0.0" text="TRAVEL">
          <StackPane.margin>
             <Insets bottom="140.0" left="100.0" right="400.0" top="100.0" />
          </StackPane.margin>

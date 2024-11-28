@@ -22,6 +22,7 @@ public class LessonScreenTravel2Controller implements Initializable {
     /**
      * Initializes the controller class.
      */
+    private String id;
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
@@ -34,6 +35,14 @@ public class LessonScreenTravel2Controller implements Initializable {
         MediaPlayer mediaPlayer = new MediaPlayer(media);
         mediaPlayer.play();
 
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
     }
 
     @FXML

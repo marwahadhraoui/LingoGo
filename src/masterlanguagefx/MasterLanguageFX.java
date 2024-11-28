@@ -5,6 +5,7 @@
 package masterlanguagefx;
 
 import java.io.IOException;
+import java.sql.SQLException;
 import javafx.application.Application;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
@@ -14,6 +15,10 @@ import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
+import java.sql.Connection;
+
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 
 /**
  *
@@ -22,12 +27,11 @@ import javafx.stage.Stage;
 public class MasterLanguageFX extends Application {
     
     @Override
-    public void start(Stage primaryStage) throws IOException {
-       
-        Parent root = FXMLLoader.load(getClass().getResource("../Views/LessonScreen2Travel1.fxml"));
-        Scene scene = new Scene(root, 600, 600);
+    public void start(Stage primaryStage) throws IOException, SQLException {  
+        Parent root = FXMLLoader.load(getClass().getResource("../Views/welcome page.fxml"));
+        Scene scene = new Scene(root, 590, 600);
         
-        primaryStage.setTitle("Hello World!");
+        primaryStage.setTitle("LingoGo!");
         primaryStage.setScene(scene);
         primaryStage.show();
     }
