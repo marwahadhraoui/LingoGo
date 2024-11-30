@@ -12,28 +12,28 @@
 
 <AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.ExerciceScreen4Controller">
    <children>
-      <Line endX="499.0" endY="-1.1444091796875E-5" layoutX="161.0" layoutY="122.0" startX="-151.0" startY="-1.52587890625E-5" />
-      <Text layoutX="98.0" layoutY="103.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Exercices : Multi choices" wrappingWidth="492.305419921875">
+      <Line endX="499.0" endY="-1.1444091796875E-5" layoutX="156.0" layoutY="95.0" startX="-151.0" startY="-1.52587890625E-5" />
+      <Text fx:id="title" layoutX="84.0" layoutY="72.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Exercices : Multi choices" wrappingWidth="492.305419921875">
          <font>
             <Font name="Bell MT Bold" size="41.0" />
          </font>
       </Text>
-      <Text layoutX="192.0" layoutY="136.0" strokeType="OUTSIDE" strokeWidth="0.0" text="In this exercise, you’ll be tested on your knowledge in grammer.">
+      <Text layoutX="172.0" layoutY="118.0" strokeType="OUTSIDE" strokeWidth="0.0" text="In this exercise, you’ll be tested on your knowledge in grammer.">
          <font>
             <Font name="Times New Roman" size="12.0" />
          </font>
       </Text>
-      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="569.0" layoutY="74.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="561.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../images/arrow.png" />
          </image>
       </ImageView>
-      <Text fill="#a470bb" layoutX="270.0" layoutY="186.0" stroke="#8f12c9" strokeType="OUTSIDE" strokeWidth="0.0" text="Grammer" wrappingWidth="119.69921875">
+      <Text fx:id="question" fill="#a470bb" layoutX="146.0" layoutY="172.0" stroke="#8f12c9" strokeType="OUTSIDE" strokeWidth="0.0" text="What is the best answer for this sentence" wrappingWidth="415.3144531249999">
          <font>
             <Font name="Times New Roman Bold Italic" size="24.0" />
          </font>
       </Text>
-      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="46.0" layoutY="74.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="28.0" layoutY="39.0" nodeOrientation="RIGHT_TO_LEFT" onMouseClicked="#Previous" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../images/arrow.png" />
          </image>
@@ -48,7 +48,7 @@
             <Image url="@../images/tente-de-camping.png" />
          </image>
       </ImageView>
-      <Text layoutX="246.0" layoutY="231.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" postcards to friends from every new camping spot.">
+      <Text layoutX="285.0" layoutY="230.0" strokeType="OUTSIDE" strokeWidth="0.0" text="to Italy next summer">
          <font>
             <Font name="Times New Roman" size="14.0" />
          </font>
@@ -63,7 +63,7 @@
             <Image url="@../images/verifie.png" />
          </image>
       </ImageView>
-      <RadioButton fx:id="choice1" layoutX="172.0" layoutY="253.0" mnemonicParsing="false" text="Send">
+      <RadioButton fx:id="choice1" layoutX="172.0" layoutY="253.0" mnemonicParsing="false">
          <font>
             <Font name="Times New Roman" size="14.0" />
          </font>
@@ -71,17 +71,22 @@
             <ToggleGroup fx:id="toggleGroup" />
          </toggleGroup>
       </RadioButton>
-      <RadioButton fx:id="choice2" layoutX="172.0" layoutY="284.0" mnemonicParsing="false" text="Sends" toggleGroup="$toggleGroup">
+      <RadioButton fx:id="choice2" layoutX="172.0" layoutY="284.0" mnemonicParsing="false" toggleGroup="$toggleGroup">
          <font>
             <Font name="Times New Roman" size="14.0" />
          </font>
       </RadioButton>
-      <RadioButton fx:id="choice3" layoutX="172.0" layoutY="318.0" mnemonicParsing="false" text="Sending" toggleGroup="$toggleGroup">
+      <RadioButton fx:id="choice3" layoutX="172.0" layoutY="318.0" mnemonicParsing="false" toggleGroup="$toggleGroup">
          <font>
             <Font name="Times New Roman" size="14.0" />
          </font>
       </RadioButton>
-      <Text fx:id="answer" layoutX="181.0" layoutY="230.0" strokeType="OUTSIDE" strokeWidth="0.0" text="__________" wrappingWidth="53.60000000000002" />
-      <Text layoutX="156.0" layoutY="230.0" strokeType="OUTSIDE" strokeWidth="0.0" text="I" />
+      <RadioButton fx:id="choice4" layoutX="172.0" layoutY="346.0" mnemonicParsing="false" toggleGroup="$toggleGroup">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </RadioButton>
+      <Text fx:id="response" layoutX="172.0" layoutY="231.0" strokeType="OUTSIDE" strokeWidth="0.0" text="_________________" wrappingWidth="95.19997558593752" />
+      <Text layoutX="144.0" layoutY="231.0" strokeType="OUTSIDE" strokeWidth="0.0" text="We " />
    </children>
 </AnchorPane>

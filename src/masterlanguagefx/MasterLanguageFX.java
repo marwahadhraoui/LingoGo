@@ -25,12 +25,12 @@ import java.sql.ResultSet;
  * @author ASUS
  */
 public class MasterLanguageFX extends Application {
-    
+
     @Override
-    public void start(Stage primaryStage) throws IOException, SQLException {  
-        Parent root = FXMLLoader.load(getClass().getResource("../Views/welcome page.fxml"));
-        Scene scene = new Scene(root, 590, 600);
-        
+    public void start(Stage primaryStage) throws IOException, SQLException {
+        Parent root = FXMLLoader.load(getClass().getResource("../Views/choose lesson.fxml"));
+        Scene scene = new Scene(root);
+
         primaryStage.setTitle("LingoGo!");
         primaryStage.setScene(scene);
         primaryStage.show();
@@ -42,5 +42,5 @@ public class MasterLanguageFX extends Application {
     public static void main(String[] args) {
         launch(args);
     }
-    
+
 }

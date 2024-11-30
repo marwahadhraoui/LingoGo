@@ -12,7 +12,7 @@
 <AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="620.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.ExerciceScreen2Controller">
    <children>
       <Line endX="499.0" endY="-1.1444091796875E-5" layoutX="141.0" layoutY="102.0" startX="-140.99998474121094" startY="-1.52587890625E-5" />
-      <Text layoutX="116.0" layoutY="83.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Exercices : Fill Blanks" wrappingWidth="473.10540771484375">
+      <Text fx:id="title" layoutX="116.0" layoutY="83.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="473.10540771484375">
          <font>
             <Font name="Bell MT Bold" size="41.0" />
          </font>
@@ -27,17 +27,17 @@
             <Image url="@../images/arrow.png" />
          </image>
       </ImageView>
-      <Text fill="#a470bb" layoutX="243.0" layoutY="159.0" stroke="#8f12c9" strokeType="OUTSIDE" strokeWidth="0.0" text="Conjugating" wrappingWidth="154.09918212890625">
+      <Text fx:id="question" fill="#a470bb" layoutX="109.0" layoutY="148.0" stroke="#8f12c9" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="446.8991394042969">
          <font>
-            <Font name="Times New Roman Bold Italic" size="24.0" />
+            <Font name="Times New Roman Bold Italic" size="18.0" />
          </font>
       </Text>
-      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="63.0" layoutY="54.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="63.0" layoutY="54.0" nodeOrientation="RIGHT_TO_LEFT" onMouseClicked="#Previous" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../images/arrow.png" />
          </image>
       </ImageView>
-      <ImageView fx:id="falseImage" fitHeight="80.0" fitWidth="76.0" layoutX="78.0" layoutY="310.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="falseImage" fitHeight="66.0" fitWidth="56.0" layoutX="98.0" layoutY="320.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../images/supprimer.png" />
          </image>
@@ -47,7 +47,7 @@
             <Image url="@../images/world-book-day.png" />
          </image>
       </ImageView>
-      <Text layoutX="338.0" layoutY="303.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" (book) the tickets online.">
+      <Text layoutX="287.0" layoutY="303.0" strokeType="OUTSIDE" strokeWidth="0.0" text="(have) more money, I would travel to Japan next year.">
          <font>
             <Font name="Times New Roman" size="14.0" />
          </font>
@@ -57,13 +57,13 @@
             <Font name="Times New Roman Bold" size="18.0" />
          </font>
       </Button>
-      <ImageView fx:id="correctImage" fitHeight="85.0" fitWidth="113.0" layoutX="506.0" layoutY="289.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="correctImage" fitHeight="56.0" fitWidth="76.0" layoutX="506.0" layoutY="318.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../images/verifie.png" />
          </image>
       </ImageView>
-      <TextField fx:id="tapedWord" layoutX="236.0" layoutY="286.0" prefHeight="26.0" prefWidth="85.0" />
-      <Text layoutX="198.0" layoutY="303.0" strokeType="OUTSIDE" strokeWidth="0.0" text="He">
+      <TextField fx:id="response" layoutX="193.0" layoutY="285.0" prefHeight="26.0" prefWidth="85.0" />
+      <Text layoutX="162.0" layoutY="303.0" strokeType="OUTSIDE" strokeWidth="0.0" text="If I ">
          <font>
             <Font name="Times New Roman" size="14.0" />
          </font>

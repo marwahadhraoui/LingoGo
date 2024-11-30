@@ -53,10 +53,10 @@ public class LanguageController implements Initializable {
         try {
             bd = new ConnexionBD();
             conBD = bd.getConnexion();
-            PreparedStatement stmt = conBD.prepareStatement("select * from public.langue");
+            PreparedStatement stmt = conBD.prepareStatement("select * from langue");
             ResultSet rs = stmt.executeQuery();
             while (rs.next()) {
-                langues.add(rs.getString("nom"));
+                langues.add(rs.getString("langue"));
             }
             listeLangue.setItems(langues);
 
@@ -73,7 +73,7 @@ public class LanguageController implements Initializable {
         String Langue1 = listeLangue.getSelectionModel().getSelectedItem();
         String Langue2 = listeLangueLearn.getSelectionModel().getSelectedItem();
         if (Langue1 != null && Langue2 != null) {
-            PreparedStatement stmt = conBD.prepareStatement("INSERT INTO public.languechoosen (languenative, langueselected) VALUES (?, ?)");
+            PreparedStatement stmt = conBD.prepareStatement("INSERT INTO languechoosen (languenative, langueselected) VALUES (?, ?)");
             stmt.setString(1, Langue1);
             stmt.setString(2, Langue2);
             int rowsAffected = stmt.executeUpdate();

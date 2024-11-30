@@ -22,17 +22,12 @@
             <Font name="Times New Roman" size="12.0" />
          </font>
       </Text>
-      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="539.0" layoutY="44.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../images/arrow.png" />
-         </image>
-      </ImageView>
-      <Text fill="#a470bb" layoutX="252.0" layoutY="139.0" stroke="#8f12c9" strokeType="OUTSIDE" strokeWidth="0.0" text="Excursion" wrappingWidth="122.89923095703125">
+      <Text fx:id="wordToTranslate" fill="#a470bb" layoutX="252.0" layoutY="139.0" stroke="#8f12c9" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="122.89923095703125">
          <font>
             <Font name="Times New Roman Bold Italic" size="24.0" />
          </font>
       </Text>
-      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="53.0" layoutY="44.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="53.0" layoutY="44.0" nodeOrientation="RIGHT_TO_LEFT" onMouseClicked="#Previous" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../images/arrow.png" />
          </image>

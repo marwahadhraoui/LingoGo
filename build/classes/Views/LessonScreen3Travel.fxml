@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.net.URL?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
@@ -9,18 +8,16 @@
 <?import javafx.scene.text.Text?>
 
 <AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.LessonScreenTravel3Controller">
-    <stylesheets>
-        <URL value="@lessonscreenfood.css" />
-    </stylesheets>
+    
    <children>
       <Line endX="499.0" endY="-1.1444091796875E-5" layoutX="111.0" layoutY="72.0" startX="-111.00000762939453" startY="-1.52587890625E-5" />
-      <Text layoutX="156.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lesson 2 : Travel">
+      <Text layoutX="156.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lesson 3 : Travel">
          <font>
             <Font name="Bell MT Bold" size="41.0" />
          </font>
       </Text>
       <Text layoutX="107.0" layoutY="86.0" strokeType="OUTSIDE" strokeWidth="0.0" text="In this lesson, you’ll learn basic present tense conjugation of travel-related verbs." />
-      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="540.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="540.0" layoutY="24.0" onMouseClicked="#Next" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../images/arrow.png" />
          </image>
@@ -75,7 +72,7 @@
             <Font name="Times New Roman" size="15.0" />
          </font>
       </Text>
-      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="33.0" layoutY="24.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="33.0" layoutY="24.0" nodeOrientation="RIGHT_TO_LEFT" onMouseClicked="#Previous" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../images/arrow.png" />
          </image>

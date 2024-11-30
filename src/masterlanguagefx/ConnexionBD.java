@@ -18,28 +18,18 @@ import javax.swing.JOptionPane;
 public class ConnexionBD {
 
     private final String Host = "localhost";
-    private final String port = "5432";
-    private final String DB = "postgres";
-    private final String User = "postgres";
-    private final String Password = "123";
+    private final String port = "3306";
+    private final String DB = "lingogo";
+    private final String User = "root";
+    private final String Password = "";
 
     public Connection getConnexion() {
         Connection connexion = null;
         try {
-            Class.forName("org.postgresql.Driver");
-            String url = "jdbc:postgresql://" + Host + ":" + port + "/" + DB;
+            Class.forName("com.mysql.cj.jdbc.Driver");
+            String url = "jdbc:mysql://" + Host + ":" + port + "/" + DB;
             connexion = DriverManager.getConnection(url, User, Password);
-            //JOptionPane.showMessageDialog(null, "connexion reussite");
-            PreparedStatement stmt = connexion.prepareStatement("select * from public.user");
-            ResultSet rs = stmt.executeQuery();
-         
-            while (rs.next()) {
-                // Example: Fetching columns from the result set
-                int id = rs.getInt("id"); // Assuming there's an 'id' column
-                String name = rs.getString("name"); // Assuming there's a 'name' column
-
-                System.out.println("ID: " + id + ", Name: " + name);
-            }
+           
         } catch (Exception e) {
             JOptionPane.showMessageDialog(null, e.getMessage());
         }
