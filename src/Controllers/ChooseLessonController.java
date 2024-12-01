@@ -69,7 +69,7 @@ public class ChooseLessonController implements Initializable {
             }
 
            //lessonVocab
-            PreparedStatement stmt2 = conBD.prepareStatement("select * from public.vocabularylesson order by id");
+            PreparedStatement stmt2 = conBD.prepareStatement("select * from vocabularylesson order by id");
             ResultSet rs2 = stmt2.executeQuery();
             List<Button> buttonsvocab = Arrays.asList(button4, button5, button6);
             index = 0; 

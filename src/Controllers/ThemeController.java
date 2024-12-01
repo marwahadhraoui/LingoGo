@@ -44,7 +44,7 @@ public class ThemeController implements Initializable{
         try {
             bd = new ConnexionBD();
             conBD = bd.getConnexion();
-            PreparedStatement stmt = conBD.prepareStatement("select * from public.theme order by id ");
+            PreparedStatement stmt = conBD.prepareStatement("select * from theme order by id ");
             ResultSet rs = stmt.executeQuery();
             while (rs.next())
             {

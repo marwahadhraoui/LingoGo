@@ -65,7 +65,7 @@ public class LessonScreenTravel4Controller {
         try {
             ConnexionBD bd = new ConnexionBD();
             Connection conBD = bd.getConnexion();
-            PreparedStatement stmt = conBD.prepareStatement("SELECT * FROM public.lessonsgrammar WHERE id = ?");
+            PreparedStatement stmt = conBD.prepareStatement("SELECT * FROM lessonsgrammar WHERE id = ?");
             stmt.setInt(1, Integer.parseInt(id));
             ResultSet rs = stmt.executeQuery();
 

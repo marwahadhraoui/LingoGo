@@ -53,10 +53,10 @@ public class LanguageController implements Initializable {
         try {
             bd = new ConnexionBD();
             conBD = bd.getConnexion();
-            PreparedStatement stmt = conBD.prepareStatement("select * from public.langue");
+            PreparedStatement stmt = conBD.prepareStatement("select * from langue");
             ResultSet rs = stmt.executeQuery();
             while (rs.next()) {
-                langues.add(rs.getString("nom"));
+                langues.add(rs.getString("langue"));
             }
             listeLangue.setItems(langues);
 
