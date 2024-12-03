@@ -111,5 +111,15 @@ public class LessonScreenTravel4Controller {
         primaryStage.setScene(scene);
         primaryStage.show();
     }
+    
+    @FXML
+    void Next(MouseEvent event) throws IOException {
+        Parent root = FXMLLoader.load(getClass().getResource("../Views/TestTravel.fxml"));
+        Scene scene = new Scene(root);
+        Stage primaryStage = (Stage) ((javafx.scene.Node) event.getSource()).getScene().getWindow();
+        primaryStage.setScene(scene);
+        primaryStage.show();
+
+    }
 
 }

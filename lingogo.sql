@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Nov 30, 2024 at 12:36 PM
+-- Generation Time: Dec 03, 2024 at 11:07 PM
 -- Server version: 5.7.36
 -- PHP Version: 8.0.26
 
@@ -76,7 +76,7 @@ CREATE TABLE IF NOT EXISTS `languechoosen` (
   `langueNative` varchar(20) COLLATE utf8mb4_bin NOT NULL,
   `langueselected` varchar(20) COLLATE utf8mb4_bin NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin;
+) ENGINE=MyISAM AUTO_INCREMENT=7 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin;
 
 --
 -- Dumping data for table `languechoosen`
@@ -86,7 +86,9 @@ INSERT INTO `languechoosen` (`id`, `langueNative`, `langueselected`) VALUES
 (1, 'Arabe', 'Anglais'),
 (2, 'Arabe', 'Anglais'),
 (3, 'Arabe', 'Anglais'),
-(4, 'Arabe', 'Anglais');
+(4, 'Arabe', 'Anglais'),
+(5, 'Arabe', 'Anglais'),
+(6, 'Arabe', 'Anglais');
 
 -- --------------------------------------------------------
 
@@ -162,6 +164,31 @@ CREATE TABLE IF NOT EXISTS `multichoice` (
 INSERT INTO `multichoice` (`id`, `title`, `question`, `choices`, `response`) VALUES
 (1, 'Exercice : Multi choices', 'What is the best answer for this sentence', 'a) packed,b) pack,c) am packing,d) will pack', 'packed'),
 (2, 'Exercice : Multi choices', 'What is the best answer for this sentence', 'are going,were going,going,will be go', 'are going');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `test`
+--
+
+DROP TABLE IF EXISTS `test`;
+CREATE TABLE IF NOT EXISTS `test` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `question` text COLLATE utf8mb4_bin NOT NULL,
+  `options` text COLLATE utf8mb4_bin NOT NULL,
+  `correctAnswer` varchar(50) COLLATE utf8mb4_bin NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin;
+
+--
+-- Dumping data for table `test`
+--
+
+INSERT INTO `test` (`id`, `question`, `options`, `correctAnswer`) VALUES
+(1, 'Question 1 : What is the word for a place where airplanes take off and land?', 'Airport,Train,Station\n', 'Airport'),
+(2, 'Question 2 : What do you call a document that allows you to enter a foreign country?', 'Ticket,Passport,Visa\n', 'Passport'),
+(3, 'Question 3: Which of the following is a type of accommodation?', 'Subway,Backpack,Hostel', 'Hostel'),
+(4, 'Question 4 :  Choose the correct sentence:', 'I will going to visit Paris next month.,I am going to visit Paris next month.,I visit Paris next month.', 'I am going to visit Paris next month.');
 
 -- --------------------------------------------------------
 

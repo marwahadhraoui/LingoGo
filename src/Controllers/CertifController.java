@@ -13,7 +13,7 @@ import javafx.fxml.Initializable;
  *
  * @author ASUS
  */
-public class ScoreAfterLevelController implements Initializable {
+public class CertifController implements Initializable {
 
     /**
      * Initializes the controller class.

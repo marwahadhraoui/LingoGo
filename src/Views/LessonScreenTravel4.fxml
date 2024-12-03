@@ -16,7 +16,7 @@
          </font>
       </Text>
       <Text fx:id="description" layoutX="117.0" layoutY="96.0" strokeType="OUTSIDE" strokeWidth="0.0" text="In this lesson, you’ll learn basic present tense conjugation of travel-related verbs." />
-      <ImageView fx:id="image2" fitHeight="40.0" fitWidth="40.0" layoutX="550.0" layoutY="34.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="image2" fitHeight="40.0" fitWidth="40.0" layoutX="550.0" layoutY="34.0" onMouseClicked="#Next" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../images/arrow.png" />
          </image>
